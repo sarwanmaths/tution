@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sarwan Maths Tuition</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="logo">
+      <!-- A simple logo with S symbol -->
+      <div class="logo-icon">S</div>
+      <div class="logo-text">Sarwan Maths Tuition</div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="section home">
+    <div class="container">
+      <h1>Welcome to Sarwan Maths Tuition</h1>
+      <p>Your trusted partner for 10th CBSE coaching.</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>
+        At Sarwan Maths Tuition, we provide focused 10th CBSE coaching with experienced teachers,
+        modern teaching aids, and a supportive environment. Our aim is to help every student excel.
+      </p>
+    </div>
+  </section>
+
+  <!-- Courses Section -->
+  <section id="courses" class="section courses">
+    <div class="container">
+      <h2>Courses Offered</h2>
+      <p>We specialize exclusively in 10th CBSE Mathematics. Our syllabus covers all essential topics and exam strategies.</p>
+      <ul>
+        <li>Algebra</li>
+        <li>Geometry</li>
+        <li>Mensuration</li>
+        <li>Statistics & Probability</li>
+        <li>Number System</li>
+        <li>And more…</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Call us for more details: <strong>8637454492</strong></p>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Sarwan Maths Tuition. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <script>
+    // Basic form handling (no backend integration)
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert("Thank you for reaching out! We'll get back to you soon.");
+      this.reset();
+    });
+  </script>
+</body>
+</html>
